@@ -12,6 +12,7 @@
     ![Elastic IP Setup1](images/001-elastic-ip1.jpeg)
     ![Elastic IP Setup2](images/002-elastic-ip2.jpeg)
     ![Elastic IP Setup3](images/003-elastic-ip3.jpeg)
+    *Note that Elastic IP is free only when it is being allocated to an EC2 Instance, so do not forget to release Elastic IP once you terminate your EC2 Instance.*
 - Provide a Fully Qualified Domain Name (FQDN) by registering a domain or creating a subdomain with a domain you own.
 - Create an `A` record that points your domain or subdomain to the static IP you created earlier.
 - Install NGINX webserver software:
